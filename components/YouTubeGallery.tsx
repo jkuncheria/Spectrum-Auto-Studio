@@ -22,7 +22,7 @@ const InstagramFeed: React.FC = () => {
           </h2>
           <div className="w-16 h-1 bg-[#F21C1D] mx-auto"></div>
         </div>
-        <div className="elfsight-app-6c655919-8f45-46c3-83c2-1cf945e1f618" data-elfsight-app-lazy></div>
+        <div className="elfsight-app-5196c988-69f1-4484-a720-0b36068b89bb" data-elfsight-app-lazy></div>
       </div>
     </section>
   );

@@ -41,7 +41,7 @@ const DemolitionCleanup: React.FC = () => {
   return (
     <>
       <SEO
-        title="Phoenix Demolition & Cleanup Services | Spectrum Auto Studio"
+        title="Phoenix Demolition & Cleanup Services | Old Town Auto Spa"
         description="Professional demolition and cleanup services in Phoenix, Arizona. Safe demolition with site protection and debris hauling. We leave the space ready for construction. Free estimates."
         keywords="Phoenix demolition, Phoenix cleanup, demolition contractor Phoenix, construction cleanup Phoenix, debris removal Phoenix, site cleanup Phoenix"
         canonical="https://hmconstruction.com/demolition-cleanup"

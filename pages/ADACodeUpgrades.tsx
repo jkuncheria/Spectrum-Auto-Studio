@@ -41,7 +41,7 @@ const ADACodeUpgrades: React.FC = () => {
   return (
     <>
       <SEO
-        title="Phoenix ADA & Code Upgrades | Spectrum Auto Studio"
+        title="Phoenix ADA & Code Upgrades | Old Town Auto Spa"
         description="Professional ADA and code compliance upgrades in Phoenix, Arizona. Accessibility improvements, ramps, handrails, restroom clearances, signage. Pass inspection the first time. Free estimates."
         keywords="Phoenix ADA upgrades, Phoenix code compliance, ADA contractor Phoenix, accessibility upgrades Phoenix, building code compliance Phoenix, ADA ramps Phoenix"
         canonical="https://hmconstruction.com/ada-code-upgrades"

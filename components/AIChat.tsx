@@ -6,7 +6,7 @@ import { sendMessageToGemini } from '../services/geminiService';
 const AIChat: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<ChatMessage[]>([
-    { id: 'welcome', role: 'model', text: 'Hi there! I\'m your Spectrum Auto Studio Smart Assistant. We\'re here to help you with all your construction needs. Looking for residential construction, commercial build-outs, flooring, kitchens, bathrooms, or tenant improvements? Ask me anything!' }
+    { id: 'welcome', role: 'model', text: 'Hi there! I\'m your Old Town Auto Spa Smart Assistant. We\'re here to help you with all your construction needs. Looking for residential construction, commercial build-outs, flooring, kitchens, bathrooms, or tenant improvements? Ask me anything!' }
   ]);
   const [inputValue, setInputValue] = useState('');
   const [isLoading, setIsLoading] = useState(false);

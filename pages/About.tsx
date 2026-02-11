@@ -6,9 +6,9 @@ const About: React.FC = () => {
   return (
     <>
       <SEO
-        title="About Spectrum Auto Studio | Denver Mobile Detailing"
-        description="Learn about Spectrum Auto Studio, Denver's trusted mobile detailing company. Professional auto detailing, ceramic coatings, PPF, and window tinting services."
-        keywords="about Spectrum Auto Studio, Denver mobile detailing, auto detailing Denver, ceramic coating Denver, PPF Denver"
+        title="About Old Town Auto Spa | Phoenix Mobile Detailing"
+        description="Learn about Old Town Auto Spa, Phoenix's trusted mobile detailing company. Professional auto detailing, ceramic coatings, PPF, and window tinting services."
+        keywords="about Old Town Auto Spa, Phoenix mobile detailing, auto detailing Phoenix, ceramic coating Phoenix, PPF Phoenix"
         canonical="https://splashmobiledetail.com/about"
       />
       <AboutComponent />

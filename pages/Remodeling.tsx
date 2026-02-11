@@ -41,7 +41,7 @@ const Remodeling: React.FC = () => {
   return (
     <>
       <SEO
-        title="Phoenix Home Remodeling | Spectrum Auto Studio"
+        title="Phoenix Home Remodeling | Old Town Auto Spa"
         description="Professional home remodeling services in Phoenix, Arizona. Kitchens, bathrooms, additions, and full-space updates. Dust control, site protection, clear communication. Free estimates."
         keywords="Phoenix home remodeling, Phoenix house renovation, home remodel contractor Phoenix, whole house renovation Phoenix, home addition Phoenix"
         canonical="https://hmconstruction.com/remodeling"

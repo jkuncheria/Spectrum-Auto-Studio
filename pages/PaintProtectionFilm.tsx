@@ -64,10 +64,10 @@ const PaintProtectionFilm: React.FC = () => {
   return (
     <>
       <SEO
-        title="Paint Protection Film Denver | PPF Installation | Clear Bra"
-        description="Professional paint protection film (PPF) installation in Denver. XPEL, 3M, SunTek clear bra protection. Self-healing film, rock chip protection. Free quotes."
-        keywords="paint protection film Denver, PPF Denver, clear bra Denver, XPEL Denver, 3M PPF, rock chip protection, paint protection"
-        canonical="https://example.com/paint-protection-film"
+        title="Paint Protection Film Phoenix | PPF Installation | Clear Bra"
+        description="Professional paint protection film (PPF) installation in Phoenix. XPEL, 3M, SunTek clear bra protection. Self-healing film, rock chip protection. Free quotes."
+        keywords="paint protection film Phoenix, PPF Phoenix, clear bra Phoenix, XPEL Phoenix, 3M PPF, rock chip protection, paint protection"
+        canonical="https://www.oldtownautospa.com/paint-protection-film"
       />
       <section className="py-24 bg-white px-4 md:px-16">
         <div className="max-w-7xl mx-auto">
@@ -99,7 +99,7 @@ const PaintProtectionFilm: React.FC = () => {
               <div className="overflow-hidden h-[500px] md:h-[600px] rounded-2xl shadow-2xl">
                 <img 
                   src="/services/paint-protection-film.webp" 
-                  alt="Paint Protection Film Installation in Denver" 
+                  alt="Paint Protection Film Installation in Phoenix" 
                   className="w-full h-full object-cover"
                   loading="lazy"
                 />

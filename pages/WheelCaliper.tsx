@@ -63,10 +63,10 @@ const WheelCaliper: React.FC = () => {
   return (
     <>
       <SEO
-        title="Wheel & Caliper Services Denver | Wheel Coating | Caliper Paint"
-        description="Professional wheel and caliper services in Denver. Wheel ceramic coating, caliper powder coating, custom colors. Brake dust protection. Free quotes."
-        keywords="wheel coating Denver, caliper painting Denver, brake caliper powder coating, wheel ceramic coating, custom caliper colors"
-        canonical="https://example.com/wheel-caliper"
+        title="Wheel & Caliper Services Phoenix | Wheel Coating | Caliper Paint"
+        description="Professional wheel and caliper services in Phoenix. Wheel ceramic coating, caliper powder coating, custom colors. Brake dust protection. Free quotes."
+        keywords="wheel coating Phoenix, caliper painting Phoenix, brake caliper powder coating, wheel ceramic coating, custom caliper colors"
+        canonical="https://www.oldtownautospa.com/wheel-caliper"
       />
       <section className="py-24 bg-white px-4 md:px-16">
         <div className="max-w-7xl mx-auto">

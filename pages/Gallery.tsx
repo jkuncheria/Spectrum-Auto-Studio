@@ -17,9 +17,9 @@ const Gallery: React.FC = () => {
   return (
     <>
       <SEO
-        title="Video Gallery | Spectrum Auto Studio | Denver Auto Detailing"
-        description="Watch our auto detailing videos. See the amazing transformations from Spectrum Auto Studio in Denver, Colorado. Interior detailing, ceramic coatings, PPF, and more."
-        keywords="auto detailing videos, car detailing gallery Denver, ceramic coating videos, PPF installation, Denver CO detailing"
+        title="Video Gallery | Old Town Auto Spa | Phoenix Auto Detailing"
+        description="Watch our auto detailing videos. See the amazing transformations from Old Town Auto Spa in Phoenix, Colorado. Interior detailing, ceramic coatings, PPF, and more."
+        keywords="auto detailing videos, car detailing gallery Phoenix, ceramic coating videos, PPF installation, Phoenix CO detailing"
         canonical="https://spectrumautostudio.com/gallery"
       />
       <section className="py-24 bg-gray-950 px-4 md:px-16">

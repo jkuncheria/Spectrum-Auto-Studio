@@ -11,7 +11,7 @@ const FAQ: React.FC = () => {
       questions: [
         {
           question: 'How quickly will you respond to my inquiry?',
-          answer: 'We typically respond to all inquiries within 24 hours. For urgent matters or immediate assistance, please call us directly at (630) 795-9999. Our team is available to help with all your auto detailing needs.'
+          answer: 'We typically respond to all inquiries within 24 hours. For urgent matters or immediate assistance, please call us directly at (602) 807-8989. Our team is available to help with all your auto detailing needs.'
         },
         {
           question: 'Do you offer free estimates?',
@@ -19,11 +19,11 @@ const FAQ: React.FC = () => {
         },
         {
           question: 'What areas do you serve?',
-          answer: 'We serve the Denver Metro Area and surrounding communities. Our state-of-the-art facility is conveniently located in Denver, Colorado. Contact us to confirm if we service your specific area!'
+          answer: 'We proudly serve Phoenix, Anthem, Paradise Valley, Scottsdale, Chandler, Fountain Hills, and surrounding communities. Contact us to confirm if we service your specific area!'
         },
         {
           question: 'Where is your facility located?',
-          answer: 'Our facility is located at 704 S Monaco St Pkwy, Denver, CO. We have a state-of-the-art shop equipped with the latest tools and technology to deliver exceptional results in a controlled environment.'
+          answer: 'Our facility is located at 704 S Monaco St Pkwy, Phoenix, CO. We have a state-of-the-art shop equipped with the latest tools and technology to deliver exceptional results in a controlled environment.'
         }
       ]
     },
@@ -116,7 +116,7 @@ const FAQ: React.FC = () => {
         },
         {
           question: 'Do I need to make an appointment?',
-          answer: 'Yes, we work by appointment to ensure we can dedicate the proper time and attention to your vehicle. Call us at (630) 795-9999 or use our contact form to schedule. We try to accommodate requests as quickly as possible.'
+          answer: 'Yes, we work by appointment to ensure we can dedicate the proper time and attention to your vehicle. Call us at (602) 807-8989 or use our contact form to schedule. We try to accommodate requests as quickly as possible.'
         },
         {
           question: 'What payment methods do you accept?',
@@ -161,14 +161,14 @@ const FAQ: React.FC = () => {
         
         {/* Header */}
         <div className="text-center mb-20">
-          <span className="font-bold tracking-wider text-sm uppercase text-[#F21C1D]">FAQ</span>
+          <span className="font-bold tracking-wider text-sm uppercase text-[#F0E130]">FAQ</span>
           <h1 className="text-4xl md:text-5xl font-bold text-white mt-4 mb-5">
             Frequently Asked Questions
           </h1>
-          <div className="w-20 h-1 bg-[#F21C1D] mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-[#F0E130] mx-auto mb-6"></div>
           <p className="text-lg text-gray-400 max-w-3xl mx-auto leading-relaxed">
             Find answers to common questions about our auto detailing services, process, and pricing. 
-            Can't find what you're looking for? <Link to="/contact" className="font-semibold hover:underline text-[#F21C1D]">Contact us</Link> and we'll be happy to help.
+            Can't find what you're looking for? <Link to="/contact" className="font-semibold hover:underline text-[#F0E130]">Contact us</Link> and we'll be happy to help.
           </p>
         </div>
 
@@ -177,7 +177,7 @@ const FAQ: React.FC = () => {
           <div key={categoryIdx} className="mb-16">
             <div className="flex items-center mb-8">
               <div className="p-3 rounded-xl mr-4 bg-gray-800">
-                <HelpCircle className="w-6 h-6 text-[#F21C1D]" />
+                <HelpCircle className="w-6 h-6 text-[#F0E130]" />
               </div>
               <h2 className="text-2xl md:text-3xl font-bold text-white">{category.category}</h2>
             </div>
@@ -188,7 +188,7 @@ const FAQ: React.FC = () => {
                 return (
                   <div 
                     key={idx}
-                    className="bg-gray-900 border-2 border-gray-800 rounded-xl overflow-hidden transition-colors hover:border-[#F21C1D]"
+                    className="bg-gray-900 border-2 border-gray-800 rounded-xl overflow-hidden transition-colors hover:border-[#F0E130]"
                   >
                     <button
                       onClick={() => toggleFaq(globalIndex)}
@@ -196,7 +196,7 @@ const FAQ: React.FC = () => {
                     >
                       <span className="font-bold text-white text-lg pr-4">{faq.question}</span>
                       {openFaq === globalIndex ? (
-                        <ChevronUp className="w-5 h-5 flex-shrink-0 text-[#F21C1D]" />
+                        <ChevronUp className="w-5 h-5 flex-shrink-0 text-[#F0E130]" />
                       ) : (
                         <ChevronDown className="w-5 h-5 text-gray-500 flex-shrink-0" />
                       )}
@@ -224,15 +224,15 @@ const FAQ: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
               to="/contact"
-              className="text-white font-bold py-4 px-8 rounded-xl transition-all transform hover:scale-105 shadow-lg inline-flex items-center justify-center gap-2 bg-[#F21C1D] hover:bg-red-700"
+              className="text-black font-bold py-4 px-8 rounded-xl transition-all transform hover:scale-105 shadow-lg inline-flex items-center justify-center gap-2 bg-[#F0E130] hover:bg-yellow-400"
             >
               Contact Us
             </Link>
             <a 
-              href="tel:6307959999"
-              className="border-2 border-white text-white hover:bg-[#F21C1D] hover:border-[#F21C1D] font-bold py-4 px-8 rounded-xl transition-all inline-flex items-center justify-center gap-2"
+              href="tel:6028078989"
+              className="border-2 border-white text-white hover:bg-[#F0E130] hover:border-[#F0E130] font-bold py-4 px-8 rounded-xl transition-all inline-flex items-center justify-center gap-2"
             >
-              Call (630) 795-9999
+              Call (602) 807-8989
             </a>
           </div>
         </div>

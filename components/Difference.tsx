@@ -3,7 +3,7 @@ import { DIFFERENCE_FEATURES } from '../constants';
 
 const Difference: React.FC = () => {
   return (
-    <section className="py-16 bg-gray-900 px-4 md:px-16">
+    <section className="py-16 bg-gradient-to-b from-stone-900 to-stone-950 px-4 md:px-16">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-white">KEY FEATURES</h2>
@@ -14,8 +14,8 @@ const Difference: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {DIFFERENCE_FEATURES.map((feature, idx) => (
-                <div key={idx} className="flex flex-col items-center text-center p-6 hover:bg-gray-800 rounded-lg transition-colors">
-                    <div className="bg-gray-800 p-4 rounded-full mb-6 border border-gray-700">
+                <div key={idx} className="flex flex-col items-center text-center p-6 hover:bg-stone-800 rounded-lg transition-colors">
+                    <div className="bg-stone-800 p-4 rounded-full mb-6 border border-[#F0E130]/30">
                         {feature.icon}
                     </div>
                     <h3 className="text-xl font-bold text-white mb-3">{feature.title}</h3>

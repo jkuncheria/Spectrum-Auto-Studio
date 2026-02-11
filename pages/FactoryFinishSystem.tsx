@@ -6,22 +6,22 @@ import SEO from '../components/SEO';
 const FactoryFinishSystem: React.FC = () => {
   const benefits = [
     {
-      icon: <Shield className="w-8 h-8" style={{ color: '#F21C1D' }} />,
+      icon: <Shield className="w-8 h-8 text-[#F0E130]" />,
       title: 'Complete Protection',
       description: 'Our Factory Finish System provides comprehensive protection that maintains your vehicle\'s original appearance and value.'
     },
     {
-      icon: <Sparkles className="w-8 h-8" style={{ color: '#F21C1D' }} />,
+      icon: <Sparkles className="w-8 h-8 text-[#F0E130]" />,
       title: 'Showroom Quality',
       description: 'Restore and maintain that brand-new showroom finish with our professional-grade products and techniques.'
     },
     {
-      icon: <Award className="w-8 h-8" style={{ color: '#F21C1D' }} />,
+      icon: <Award className="w-8 h-8 text-[#F0E130]" />,
       title: 'Premium Results',
       description: 'Experience the highest level of finish quality that exceeds dealership standards.'
     },
     {
-      icon: <Wrench className="w-8 h-8" style={{ color: '#F21C1D' }} />,
+      icon: <Wrench className="w-8 h-8 text-[#F0E130]" />,
       title: 'Expert Application',
       description: 'Our certified technicians use specialized equipment and techniques for flawless results every time.'
     }
@@ -64,32 +64,36 @@ const FactoryFinishSystem: React.FC = () => {
   return (
     <>
       <SEO
-        title="Factory Finish System Denver | Professional Paint Restoration"
-        description="Professional Factory Finish System services in Denver. Restore your vehicle's showroom appearance with our expert paint restoration and protection services. Free quotes."
-        keywords="factory finish system Denver, paint restoration Denver, showroom finish, car paint protection, auto detailing Denver"
-        canonical="https://spectrumautostudio.com/factory-finish-system"
+        title="Factory Finish System Phoenix | Professional Paint Restoration"
+        description="Professional Factory Finish System services in Phoenix. Restore your vehicle's showroom appearance with our expert paint restoration and protection services. Free quotes."
+        keywords="factory finish system Phoenix, paint restoration Phoenix, showroom finish, car paint protection, auto detailing Phoenix"
+        canonical="https://www.oldtownautospa.com/factory-finish-system"
+        serviceSchema={{
+          name: "Factory Finish System",
+          description: "Comprehensive paint restoration system that restores your vehicle to showroom-quality finish with professional-grade products and techniques."
+        }}
       />
-      <section className="py-24 bg-white px-4 md:px-16">
+      <section className="py-24 bg-stone-950 px-4 md:px-16">
         <div className="max-w-7xl mx-auto">
         
         {/* Hero Section */}
         <div className="mb-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <span className="font-bold tracking-wider text-sm uppercase" style={{ color: '#F21C1D' }}>FACTORY FINISH SYSTEM</span>
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mt-4 mb-6">
+              <span className="text-[#F0E130] font-bold tracking-wider text-sm uppercase">FACTORY FINISH SYSTEM</span>
+              <h1 className="text-4xl md:text-5xl font-bold text-white mt-4 mb-6">
                 Factory Finish System | Showroom Quality Restoration
               </h1>
-              <div className="w-20 h-1 bg-[#F21C1D] mb-6"></div>
-              <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+              <div className="w-20 h-1 bg-[#F0E130] mb-6"></div>
+              <p className="text-lg text-gray-400 mb-8 leading-relaxed">
                 Restore your vehicle to its original factory finish with our comprehensive Factory Finish System. Our expert technicians use professional-grade products and techniques to deliver showroom-quality results that protect and enhance your vehicle's appearance.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link to="/contact" className="bg-[#F21C1D] hover:bg-red-700 text-white font-bold py-4 px-8 rounded-xl transition-all transform hover:scale-105 shadow-lg flex items-center justify-center gap-2 group">
+                <Link to="/contact" className="bg-[#F0E130] hover:bg-yellow-400 text-black font-bold py-4 px-8 rounded-xl transition-all transform hover:scale-105 shadow-lg flex items-center justify-center gap-2 group">
                   Get Free Quote
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
-                <a href="tel:6307959999" className="border-2 border-[#F21C1D] text-[#F21C1D] hover:bg-[#F21C1D] hover:text-white font-bold py-4 px-8 rounded-xl transition-all flex items-center justify-center gap-2">
+                <a href="tel:6028078989" className="border-2 border-[#F0E130] text-[#F0E130] hover:bg-[#F0E130] hover:text-black font-bold py-4 px-8 rounded-xl transition-all flex items-center justify-center gap-2">
                   <Phone className="w-5 h-5" />
                   Call Us
                 </a>
@@ -109,27 +113,27 @@ const FactoryFinishSystem: React.FC = () => {
 
         {/* Benefits Grid */}
         <div className="mb-20">
-          <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">Why Choose Our Factory Finish System?</h2>
+          <h2 className="text-3xl font-bold text-white text-center mb-12">Why Choose Our Factory Finish System?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {benefits.map((benefit, index) => (
-              <div key={index} className="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow">
-                <div className="bg-gray-100 p-4 rounded-xl inline-block mb-4">
+              <div key={index} className="bg-stone-900 rounded-2xl p-8 hover:shadow-lg border border-stone-800 transition-shadow">
+                <div className="bg-stone-800 p-4 rounded-xl inline-block mb-4">
                   {benefit.icon}
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">{benefit.title}</h3>
-                <p className="text-gray-600">{benefit.description}</p>
+                <h3 className="text-xl font-bold text-white mb-3">{benefit.title}</h3>
+                <p className="text-gray-400">{benefit.description}</p>
               </div>
             ))}
           </div>
         </div>
 
         {/* Services List */}
-        <div className="mb-20 bg-gray-900 rounded-3xl p-12">
+        <div className="mb-20 bg-stone-900 rounded-3xl p-12">
           <h2 className="text-3xl font-bold text-white text-center mb-12">What's Included</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((service, index) => (
               <div key={index} className="flex items-center gap-3">
-                <CheckCircle className="w-6 h-6 text-[#F21C1D] flex-shrink-0" />
+                <CheckCircle className="w-6 h-6 text-[#F0E130] flex-shrink-0" />
                 <span className="text-white">{service}</span>
               </div>
             ))}
@@ -138,19 +142,19 @@ const FactoryFinishSystem: React.FC = () => {
 
         {/* Packages */}
         <div className="mb-20">
-          <h2 className="text-3xl font-bold text-gray-900 text-center mb-4">Our Packages</h2>
-          <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+          <h2 className="text-3xl font-bold text-white text-center mb-4">Our Packages</h2>
+          <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
             Choose the package that best fits your needs. All packages include our satisfaction guarantee.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {packages.map((pkg, index) => (
-              <div key={index} className="border-2 border-gray-200 rounded-2xl p-6 hover:border-[#F21C1D] transition-colors">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">{pkg.name}</h3>
-                <p className="text-gray-500 text-sm mb-4">{pkg.description}</p>
+              <div key={index} className="border-2 border-stone-800 rounded-2xl p-6 hover:border-[#F0E130] transition-colors">
+                <h3 className="text-xl font-bold text-white mb-2">{pkg.name}</h3>
+                <p className="text-gray-400 text-sm mb-4">{pkg.description}</p>
                 <ul className="space-y-2">
                   {pkg.includes.map((item, i) => (
-                    <li key={i} className="flex items-center gap-2 text-sm text-gray-600">
-                      <CheckCircle className="w-4 h-4 text-[#F21C1D]" />
+                    <li key={i} className="flex items-center gap-2 text-sm text-gray-300">
+                      <CheckCircle className="w-4 h-4 text-[#F0E130]" />
                       {item}
                     </li>
                   ))}
@@ -161,7 +165,7 @@ const FactoryFinishSystem: React.FC = () => {
         </div>
 
         {/* CTA Section */}
-        <div className="bg-gradient-to-r from-gray-900 to-gray-800 rounded-3xl p-12 text-center">
+        <div className="bg-gradient-to-r from-stone-900 to-stone-800 rounded-3xl p-12 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Ready to Restore Your Vehicle's Factory Finish?
           </h2>
@@ -169,13 +173,13 @@ const FactoryFinishSystem: React.FC = () => {
             Contact us today for a free consultation and quote. Our experts will help you choose the right package for your vehicle.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/contact" className="bg-[#F21C1D] hover:bg-red-700 text-white font-bold py-4 px-8 rounded-xl transition-all transform hover:scale-105 shadow-lg inline-flex items-center justify-center gap-2">
+            <Link to="/contact" className="bg-[#F0E130] hover:bg-yellow-400 text-black font-bold py-4 px-8 rounded-xl transition-all transform hover:scale-105 shadow-lg inline-flex items-center justify-center gap-2">
               Get Your Free Quote
               <ArrowRight className="w-5 h-5" />
             </Link>
-            <a href="tel:6307959999" className="bg-white hover:bg-gray-100 text-gray-900 font-bold py-4 px-8 rounded-xl transition-all inline-flex items-center justify-center gap-2">
+            <a href="tel:6028078989" className="bg-stone-800 hover:bg-stone-700 text-white font-bold py-4 px-8 rounded-xl transition-all inline-flex items-center justify-center gap-2">
               <Phone className="w-5 h-5" />
-              (630) 795-9999
+              (602) 807-8989
             </a>
           </div>
         </div>

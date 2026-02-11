@@ -44,10 +44,10 @@ const Categories: React.FC = () => {
   };
 
   return (
-    <section id="our-products" className="py-16 bg-gray-900 px-4 md:px-16">
+    <section id="our-products" className="py-16 bg-gradient-to-b from-stone-950 to-stone-900 px-4 md:px-16">
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold text-white mb-2">OUR SERVICES</h2>
-        <div className="w-16 h-1 bg-[#F21C1D] mx-auto"></div>
+        <div className="w-16 h-1 bg-[#F0E130] mx-auto"></div>
       </div>
 
       <div className="relative max-w-7xl mx-auto">
@@ -55,7 +55,7 @@ const Categories: React.FC = () => {
         {canScrollLeft && (
           <button
             onClick={() => scroll('left')}
-            className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-gray-800 text-white rounded-full p-3 shadow-lg hover:bg-[#F21C1D] transition-all duration-300 transform hover:scale-110 hidden md:flex items-center justify-center"
+            className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-stone-800 text-white rounded-full p-3 shadow-lg hover:bg-[#F0E130] transition-all duration-300 transform hover:scale-110 hidden md:flex items-center justify-center"
             aria-label="Scroll left"
           >
             <ChevronLeft className="w-6 h-6" />
@@ -71,27 +71,30 @@ const Categories: React.FC = () => {
           <div className="flex gap-6 px-2" style={{ minWidth: 'max-content' }}>
         {CATEGORIES.map((cat) => {
               const linkMap: Record<string, string> = {
-                'paint-protection-film': '/paint-protection-film',
+                'auto-detailing': '/auto-detailing',
+                'paint-correction': '/paint-correction',
                 'ceramic-coatings': '/ceramic-coatings',
+                                'vehicle-wraps': '/vehicle-wraps',
                 'window-tinting': '/window-tinting',
-                'vehicle-wraps': '/vehicle-wraps'
+                'factory-finish-system': '/factory-finish-system'
               };
 
           const content = (
-                <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 bg-gray-800 w-80 md:w-96 flex-shrink-0">
+                <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 bg-stone-800 w-80 md:w-96 flex-shrink-0">
                   <div className="aspect-[4/3] overflow-hidden">
               <img 
                 src={cat.image} 
                 alt={cat.name} 
+                loading="lazy"
                 className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
               />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   </div>
                   <div className="p-6">
-                    <h3 className="text-xl md:text-2xl font-bold text-white group-hover:text-[#F21C1D] transition-colors">
+                    <h3 className="text-xl md:text-2xl font-bold text-white group-hover:text-[#F0E130] transition-colors">
                       {cat.name}
                     </h3>
-                    <div className="mt-2 flex items-center font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300" style={{ color: '#F21C1D' }}>
+                    <div className="mt-2 flex items-center font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300" style={{ color: '#F0E130' }}>
                       <span>Learn More</span>
                       <svg className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -126,7 +129,7 @@ const Categories: React.FC = () => {
         {canScrollRight && (
           <button
             onClick={() => scroll('right')}
-            className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-gray-800 text-white rounded-full p-3 shadow-lg hover:bg-[#F21C1D] transition-all duration-300 transform hover:scale-110 hidden md:flex items-center justify-center"
+            className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-stone-800 text-white rounded-full p-3 shadow-lg hover:bg-[#F0E130] transition-all duration-300 transform hover:scale-110 hidden md:flex items-center justify-center"
             aria-label="Scroll right"
           >
             <ChevronRight className="w-6 h-6" />
@@ -137,7 +140,7 @@ const Categories: React.FC = () => {
       <div className="mt-12 text-center">
           <Link 
             to="/services"
-            className="inline-block border-2 hover:text-white font-bold py-2 px-6 rounded transition-colors" style={{ borderColor: '#F21C1D', color: '#F21C1D' }} onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#F21C1D'; e.currentTarget.style.color = 'white'; }} onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = '#F21C1D'; }}
+            className="inline-block border-2 hover:text-white font-bold py-2 px-6 rounded transition-colors" style={{ borderColor: '#F0E130', color: '#F0E130' }} onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#F0E130'; e.currentTarget.style.color = 'white'; }} onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = '#F0E130'; }}
           >
               VIEW ALL SERVICES
           </Link>

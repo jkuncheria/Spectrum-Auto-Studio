@@ -64,10 +64,10 @@ const InteriorProtection: React.FC = () => {
   return (
     <>
       <SEO
-        title="Interior Protection Denver | Leather Coating | Fabric Protection"
-        description="Professional interior protection in Denver. Leather ceramic coating, fabric protection, UV protection. Keep your interior looking new. Free quotes."
-        keywords="interior protection Denver, leather coating, fabric protection, car interior coating, leather ceramic coating, stain protection"
-        canonical="https://example.com/interior-protection"
+        title="Interior Protection Phoenix | Leather Coating | Fabric Protection"
+        description="Professional interior protection in Phoenix. Leather ceramic coating, fabric protection, UV protection. Keep your interior looking new. Free quotes."
+        keywords="interior protection Phoenix, leather coating, fabric protection, car interior coating, leather ceramic coating, stain protection"
+        canonical="https://www.oldtownautospa.com/interior-protection"
       />
       <section className="py-24 bg-white px-4 md:px-16">
         <div className="max-w-7xl mx-auto">

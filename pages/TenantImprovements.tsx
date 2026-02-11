@@ -41,7 +41,7 @@ const TenantImprovements: React.FC = () => {
   return (
     <>
       <SEO
-        title="Phoenix Tenant Improvements | Spectrum Auto Studio"
+        title="Phoenix Tenant Improvements | Old Town Auto Spa"
         description="Professional tenant improvements in Phoenix, Arizona. Fast, code-compliant build-outs for offices and retail with minimal downtime. Demolition, drywall, lighting, ADA upgrades. Free estimates."
         keywords="Phoenix tenant improvements, Phoenix office build-out, tenant improvement contractor Phoenix, commercial build-out Phoenix, office renovation Phoenix"
         canonical="https://hmconstruction.com/tenant-improvements"

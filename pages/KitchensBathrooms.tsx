@@ -41,7 +41,7 @@ const KitchensBathrooms: React.FC = () => {
   return (
     <>
       <SEO
-        title="Phoenix Kitchen & Bathroom Remodeling | Spectrum Auto Studio"
+        title="Phoenix Kitchen & Bathroom Remodeling | Old Town Auto Spa"
         description="Professional kitchen and bathroom remodeling in Phoenix, Arizona. Custom cabinets, countertops, tile, plumbing, lighting. Clean timelines, dust control, quality finishes. Free estimates."
         keywords="Phoenix kitchen remodeling, Phoenix bathroom remodeling, kitchen contractor Phoenix, bathroom contractor Phoenix, kitchen renovation Phoenix, bathroom renovation Phoenix"
         canonical="https://hmconstruction.com/kitchens-bathrooms"

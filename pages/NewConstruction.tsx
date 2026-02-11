@@ -41,7 +41,7 @@ const NewConstruction: React.FC = () => {
   return (
     <>
       <SEO
-        title="Phoenix New Construction | Spectrum Auto Studio"
+        title="Phoenix New Construction | Old Town Auto Spa"
         description="Professional new construction services in Phoenix, Arizona. Ground-up builds with clear planning, proper permits, and hands-on supervision. Delivered on time and on budget. Free estimates."
         keywords="Phoenix new construction, Phoenix home builders, new build Phoenix, ground-up construction Phoenix, new home construction Phoenix, custom home builder Phoenix"
         canonical="https://hmconstruction.com/new-construction"

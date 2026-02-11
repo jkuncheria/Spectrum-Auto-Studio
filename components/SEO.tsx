@@ -1,4 +1,12 @@
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
+
+interface ServiceSchema {
+  name: string;
+  description: string;
+  provider?: string;
+  areaServed?: string[];
+  priceRange?: string;
+}
 
 interface SEOProps {
   title: string;
@@ -6,6 +14,7 @@ interface SEOProps {
   keywords?: string;
   canonical?: string;
   ogImage?: string;
+  serviceSchema?: ServiceSchema;
 }
 
 const SEO: React.FC<SEOProps> = ({ 
@@ -13,7 +22,8 @@ const SEO: React.FC<SEOProps> = ({
   description, 
   keywords, 
   canonical,
-  ogImage = '/hmlogo.png'
+  ogImage = '/oldtownlogo1.png',
+  serviceSchema
 }) => {
   useEffect(() => {
     // Update document title
@@ -71,7 +81,7 @@ const SEO: React.FC<SEOProps> = ({
 
     updateOGTag('og:title', title);
     updateOGTag('og:description', description);
-    updateOGTag('og:image', `https://hmconstruction.com${ogImage}`);
+    updateOGTag('og:image', `https://www.oldtownautospa.com${ogImage}`);
     if (canonical) {
       updateOGTag('og:url', canonical);
     }
@@ -91,8 +101,40 @@ const SEO: React.FC<SEOProps> = ({
 
     updateTwitterTag('twitter:title', title);
     updateTwitterTag('twitter:description', description);
-    updateTwitterTag('twitter:image', `https://hmconstruction.com${ogImage}`);
-  }, [title, description, keywords, canonical, ogImage]);
+    updateTwitterTag('twitter:image', `https://www.oldtownautospa.com${ogImage}`);
+
+    // Add Service Schema if provided
+    if (serviceSchema) {
+      const existingSchema = document.querySelector('script[data-schema="service"]');
+      if (existingSchema) {
+        existingSchema.remove();
+      }
+      
+      const schema = {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": serviceSchema.name,
+        "description": serviceSchema.description,
+        "provider": {
+          "@type": "LocalBusiness",
+          "name": serviceSchema.provider || "Old Town Auto Spa",
+          "telephone": "602-807-8989",
+          "email": "info@oldtownautospa.com"
+        },
+        "areaServed": (serviceSchema.areaServed || ["Phoenix", "Scottsdale", "Paradise Valley", "Chandler", "Fountain Hills", "Anthem"]).map(area => ({
+          "@type": "City",
+          "name": area
+        })),
+        "priceRange": serviceSchema.priceRange || "$$"
+      };
+
+      const script = document.createElement('script');
+      script.type = 'application/ld+json';
+      script.setAttribute('data-schema', 'service');
+      script.textContent = JSON.stringify(schema);
+      document.head.appendChild(script);
+    }
+  }, [title, description, keywords, canonical, ogImage, serviceSchema]);
 
   return null;
 };

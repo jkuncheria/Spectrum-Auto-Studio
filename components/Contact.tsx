@@ -93,7 +93,7 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
       const submissionData: Record<string, any> = {
         name: formData.name,
         email: formData.email,
-        clientId: 'RL-QLJ7CW4Y',
+        clientId: 'RL-A73YXCFQ',
         projectType: projectTypeMap[formData.inquiryType] || formData.inquiryType,
         inquiryType: formData.inquiryType,
         vehicleInfo: vehicleInfo || undefined,
@@ -151,20 +151,20 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
   };
 
   return (
-    <section className="py-24 bg-gray-950 px-4 md:px-16 relative overflow-hidden">
+    <section className="py-24 bg-gradient-to-b from-stone-950 to-stone-900 px-4 md:px-16 relative overflow-hidden">
       {/* Decorative Background Elements */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-[#F21C1D] rounded-full opacity-10 blur-3xl"></div>
+      <div className="absolute top-0 right-0 w-96 h-96 bg-[#F0E130] rounded-full opacity-10 blur-3xl"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-gray-700 rounded-full opacity-10 blur-3xl"></div>
       
       <div className="max-w-7xl mx-auto relative z-10">
         
         {/* Header */}
         <div className="text-center mb-20">
-          <span className="text-[#F21C1D] font-bold tracking-wider text-sm uppercase">GET IN TOUCH</span>
+          <span className="text-[#F0E130] font-bold tracking-wider text-sm uppercase">GET IN TOUCH</span>
           <h2 className="text-4xl md:text-5xl font-bold text-white mt-4 mb-5">
             Let's Talk About Your Vehicle
           </h2>
-          <div className="w-20 h-1 bg-[#F21C1D] mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-[#F0E130] mx-auto mb-6"></div>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed">
             Have questions? Need a quote? Our auto protection experts are here to help you protect your investment with premium services.
           </p>
@@ -181,37 +181,37 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
               </p>
 
               <div className="space-y-6">
-                <a href="tel:6307959999" className="group flex items-start p-4 rounded-xl hover:bg-gray-800 transition-all duration-300 border border-transparent hover:border-gray-700">
-                  <div className="bg-gradient-to-br from-[#F21C1D] to-red-700 p-4 rounded-xl mr-4 group-hover:scale-110 transition-transform shadow-md">
+                <a href="tel:6028078989" className="group flex items-start p-4 rounded-xl hover:bg-gray-800 transition-all duration-300 border border-transparent hover:border-gray-700">
+                  <div className="bg-gradient-to-br from-[#F0E130] to-yellow-600 p-4 rounded-xl mr-4 group-hover:scale-110 transition-transform shadow-md">
                     <Phone className="w-6 h-6 text-white" />
                   </div>
                   <div className="flex-1">
-                    <h4 className="font-bold text-white mb-1 group-hover:text-[#F21C1D] transition-colors">Phone</h4>
-                    <p className="text-gray-300 font-semibold text-lg">(630) 795-9999</p>
+                    <h4 className="font-bold text-white mb-1 group-hover:text-[#F0E130] transition-colors">Phone</h4>
+                    <p className="text-gray-300 font-semibold text-lg">(602) 807-8989</p>
                     <p className="text-sm text-gray-500 mt-1">Call for Free Quote</p>
                   </div>
                 </a>
 
-                <a href="mailto:Aiden@SpectrumAutoStudio.com" className="group flex items-start p-4 rounded-xl hover:bg-gray-800 transition-all duration-300 border border-transparent hover:border-gray-700">
-                  <div className="bg-gradient-to-br from-[#F21C1D] to-red-700 p-4 rounded-xl mr-4 group-hover:scale-110 transition-transform shadow-md flex-shrink-0">
+                <a href="mailto:info@oldtownautospa.com" className="group flex items-start p-4 rounded-xl hover:bg-gray-800 transition-all duration-300 border border-transparent hover:border-gray-700">
+                  <div className="bg-gradient-to-br from-[#F0E130] to-yellow-600 p-4 rounded-xl mr-4 group-hover:scale-110 transition-transform shadow-md flex-shrink-0">
                     <Mail className="w-6 h-6 text-white" />
                   </div>
                   <div className="flex-1 min-w-0">
-                    <h4 className="font-bold text-white mb-1 group-hover:text-[#F21C1D] transition-colors">Email</h4>
-                    <p className="text-gray-300 font-semibold break-words text-sm sm:text-base">Aiden@SpectrumAutoStudio.com</p>
+                    <h4 className="font-bold text-white mb-1 group-hover:text-[#F0E130] transition-colors">Email</h4>
+                    <p className="text-gray-300 font-semibold break-words text-sm sm:text-base">info@oldtownautospa.com</p>
                     <p className="text-sm text-gray-500 mt-1">We respond within 24 hours</p>
                   </div>
                 </a>
 
                 <a href="#" target="_blank" rel="noopener noreferrer" className="group flex items-start p-4 rounded-xl hover:bg-gray-800 transition-all duration-300 border border-transparent hover:border-gray-700">
-                  <div className="bg-gradient-to-br from-[#F21C1D] to-red-700 p-4 rounded-xl mr-4 group-hover:scale-110 transition-transform shadow-md">
+                  <div className="bg-gradient-to-br from-[#F0E130] to-yellow-600 p-4 rounded-xl mr-4 group-hover:scale-110 transition-transform shadow-md">
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
                   <div className="flex-1">
-                    <h4 className="font-bold text-white mb-1 group-hover:text-[#F21C1D] transition-colors">Service Area</h4>
-                    <p className="text-gray-300 font-semibold">704 S Monaco St Pkwy</p>
-                    <p className="text-gray-300 font-semibold">Denver, CO</p>
-                    <p className="text-sm text-[#F21C1D] mt-1 font-semibold group-hover:underline">
+                    <h4 className="font-bold text-white mb-1 group-hover:text-[#F0E130] transition-colors">Service Area</h4>
+                    <p className="text-gray-300 font-semibold">Phoenix • Anthem • Paradise Valley</p>
+                    <p className="text-gray-300 font-semibold">Scottsdale • Chandler • Fountain Hills</p>
+                    <p className="text-sm text-[#F0E130] mt-1 font-semibold group-hover:underline">
                       Contact Us →
                     </p>
                   </div>
@@ -235,7 +235,7 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full border-2 border-gray-700 rounded-xl px-5 py-3.5 focus:outline-none focus:border-[#F21C1D] focus:ring-4 focus:ring-[#F21C1D] focus:ring-opacity-10 transition-all bg-gray-800 text-white placeholder-gray-500 focus:bg-gray-800"
+                    className="w-full border-2 border-gray-700 rounded-xl px-5 py-3.5 focus:outline-none focus:border-[#F0E130] focus:ring-[#F0E130] focus:ring-opacity-10 transition-all bg-gray-800 text-white placeholder-gray-500 focus:bg-gray-800"
                     placeholder="John Doe"
                   />
                 </div>
@@ -251,7 +251,7 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full border-2 border-gray-700 rounded-xl px-5 py-3.5 focus:outline-none focus:border-[#F21C1D] focus:ring-4 focus:ring-[#F21C1D] focus:ring-opacity-10 transition-all bg-gray-800 text-white placeholder-gray-500 focus:bg-gray-800"
+                    className="w-full border-2 border-gray-700 rounded-xl px-5 py-3.5 focus:outline-none focus:border-[#F0E130] focus:ring-[#F0E130] focus:ring-opacity-10 transition-all bg-gray-800 text-white placeholder-gray-500 focus:bg-gray-800"
                     placeholder="john@example.com"
                   />
                 </div>
@@ -268,7 +268,7 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    className="w-full border-2 border-gray-700 rounded-xl px-5 py-3.5 focus:outline-none focus:border-[#F21C1D] focus:ring-4 focus:ring-[#F21C1D] focus:ring-opacity-10 transition-all bg-gray-800 text-white placeholder-gray-500 focus:bg-gray-800"
+                    className="w-full border-2 border-gray-700 rounded-xl px-5 py-3.5 focus:outline-none focus:border-[#F0E130] focus:ring-[#F0E130] focus:ring-opacity-10 transition-all bg-gray-800 text-white placeholder-gray-500 focus:bg-gray-800"
                     placeholder="(555) 123-4567"
                   />
                 </div>
@@ -286,7 +286,7 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
                   <button
                     type="button"
                     onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                    className="w-full border-2 border-gray-700 rounded-xl px-5 py-3.5 focus:outline-none focus:border-[#F21C1D] focus:ring-4 focus:ring-[#F21C1D] focus:ring-opacity-10 transition-all bg-gray-800 hover:bg-gray-800 font-medium text-left flex items-center justify-between group"
+                    className="w-full border-2 border-gray-700 rounded-xl px-5 py-3.5 focus:outline-none focus:border-[#F0E130] focus:ring-[#F0E130] focus:ring-opacity-10 transition-all bg-gray-800 hover:bg-gray-800 font-medium text-left flex items-center justify-between group"
                   >
                     <span className={formData.inquiryType ? 'text-white' : 'text-gray-500'}>
                       {selectedOption.label}
@@ -330,7 +330,7 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
                     name="vehicleYear"
                     value={formData.vehicleYear}
                     onChange={handleChange}
-                    className="w-full border-2 border-gray-700 rounded-xl px-4 py-3.5 focus:outline-none focus:border-[#F21C1D] focus:ring-4 focus:ring-[#F21C1D] focus:ring-opacity-10 transition-all bg-gray-800 text-white placeholder-gray-500"
+                    className="w-full border-2 border-gray-700 rounded-xl px-4 py-3.5 focus:outline-none focus:border-[#F0E130] focus:ring-[#F0E130] focus:ring-opacity-10 transition-all bg-gray-800 text-white placeholder-gray-500"
                     placeholder="Year"
                     maxLength={4}
                   />
@@ -339,7 +339,7 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
                     name="vehicleMake"
                     value={formData.vehicleMake}
                     onChange={handleChange}
-                    className="w-full border-2 border-gray-700 rounded-xl px-4 py-3.5 focus:outline-none focus:border-[#F21C1D] focus:ring-4 focus:ring-[#F21C1D] focus:ring-opacity-10 transition-all bg-gray-800 text-white placeholder-gray-500"
+                    className="w-full border-2 border-gray-700 rounded-xl px-4 py-3.5 focus:outline-none focus:border-[#F0E130] focus:ring-[#F0E130] focus:ring-opacity-10 transition-all bg-gray-800 text-white placeholder-gray-500"
                     placeholder="Make (e.g. Tesla)"
                   />
                   <input
@@ -347,7 +347,7 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
                     name="vehicleModel"
                     value={formData.vehicleModel}
                     onChange={handleChange}
-                    className="w-full border-2 border-gray-700 rounded-xl px-4 py-3.5 focus:outline-none focus:border-[#F21C1D] focus:ring-4 focus:ring-[#F21C1D] focus:ring-opacity-10 transition-all bg-gray-800 text-white placeholder-gray-500"
+                    className="w-full border-2 border-gray-700 rounded-xl px-4 py-3.5 focus:outline-none focus:border-[#F0E130] focus:ring-[#F0E130] focus:ring-opacity-10 transition-all bg-gray-800 text-white placeholder-gray-500"
                     placeholder="Model (e.g. Model 3)"
                   />
                 </div>
@@ -364,7 +364,7 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
                   onChange={handleChange}
                   required
                   rows={6}
-                  className="w-full border-2 border-gray-700 rounded-xl px-5 py-3.5 focus:outline-none focus:border-[#F21C1D] focus:ring-4 focus:ring-[#F21C1D] focus:ring-opacity-10 transition-all resize-none bg-gray-800 text-white placeholder-gray-500"
+                  className="w-full border-2 border-gray-700 rounded-xl px-5 py-3.5 focus:outline-none focus:border-[#F0E130] focus:ring-[#F0E130] focus:ring-opacity-10 transition-all resize-none bg-gray-800 text-white placeholder-gray-500"
                   placeholder="Describe what you're looking for: specific services, current condition of your vehicle, any concerns about paint/interior, timeline preferences, etc."
                 ></textarea>
               </div>
@@ -392,7 +392,7 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full bg-gradient-to-r from-[#F21C1D] to-red-700 hover:from-red-600 hover:to-red-800 disabled:from-gray-400 disabled:to-gray-500 disabled:cursor-not-allowed text-white font-bold py-4 px-8 rounded-xl transition-all transform hover:scale-[1.02] shadow-lg hover:shadow-xl flex items-center justify-center gap-2 group"
+                className="w-full bg-gradient-to-r from-[#F0E130] to-yellow-600 hover:from-yellow-400 hover:to-yellow-500 disabled:from-gray-400 disabled:to-gray-500 disabled:cursor-not-allowed text-white font-bold py-4 px-8 rounded-xl transition-all transform hover:scale-[1.02] shadow-lg hover:shadow-xl flex items-center justify-center gap-2 group"
               >
                 {isSubmitting ? (
                   <>
@@ -418,13 +418,13 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
           <div className="bg-white rounded-2xl shadow-lg p-8 md:p-10 border border-gray-100">
             <div className="flex items-center mb-6">
               <div className="bg-gray-100 p-3 rounded-xl mr-4">
-                <Clock className="w-6 h-6 text-[#F21C1D]" />
+                <Clock className="w-6 h-6 text-[#F0E130]" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900">Shop Hours</h3>
             </div>
             <div className="space-y-4">
               <div className="bg-gray-100 rounded-lg p-3 mb-4">
-                <p className="font-semibold text-[#F21C1D]">Available</p>
+                <p className="font-semibold text-[#F0E130]">Available</p>
                 <p className="text-gray-700">By Appointment</p>
               </div>
               <div className="flex justify-between items-center py-3 border-b border-gray-100">
@@ -440,25 +440,25 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
           <div className="bg-white rounded-2xl shadow-lg p-8 md:p-10 border border-gray-100">
             <div className="flex items-center mb-6">
               <div className="bg-gray-100 p-3 rounded-xl mr-4">
-                <MapPin className="w-6 h-6 text-[#F21C1D]" />
+                <MapPin className="w-6 h-6 text-[#F0E130]" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900">Service Area</h3>
             </div>
             <div className="space-y-4">
               <div>
                 <p className="text-gray-600 mb-2">We Serve</p>
-                <p className="text-gray-900 font-semibold">Denver, Colorado</p>
-                <p className="text-gray-900 font-semibold">and Surrounding Areas</p>
+                <p className="text-gray-900 font-semibold">Phoenix • Anthem • Paradise Valley</p>
+                <p className="text-gray-900 font-semibold">Scottsdale • Chandler • Fountain Hills</p>
               </div>
               <div className="pt-4 border-t border-gray-100">
                 <p className="text-gray-600 mb-4">
                   We provide professional auto detailing and protection services for all vehicle types. Contact us to discuss your needs.
                 </p>
                 <a 
-                  href="/contact" 
-                  className="inline-block bg-[#F21C1D] hover:bg-red-700 text-white font-bold py-3 px-6 rounded-xl transition-all"
+                  href="tel:6028078989" 
+                  className="inline-block bg-[#F0E130] hover:bg-yellow-400 text-black font-bold py-3 px-6 rounded-xl transition-all"
                 >
-                  Contact Us
+                  Call Now
                 </a>
               </div>
             </div>
@@ -506,8 +506,8 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
                 <p className="text-gray-300 mb-4 text-sm">
                   Call us directly for urgent questions or to speak with an auto protection specialist right away.
                 </p>
-                <a href="tel:6307959999" className="bg-white text-gray-900 hover:bg-gray-100 font-bold py-2 px-6 rounded-lg transition-all inline-block">
-                  (630) 795-9999
+                <a href="tel:6028078989" className="bg-white text-gray-900 hover:bg-gray-100 font-bold py-2 px-6 rounded-lg transition-all inline-block">
+                  (602) 807-8989
                 </a>
               </div>
             </div>

@@ -41,6 +41,7 @@ const MilitaryDiscount: React.FC = () => {
                 <img 
                   src="/military.avif" 
                   alt="Military Service" 
+                  loading="lazy"
                   className="w-full h-full object-cover"
                 />
               </div>

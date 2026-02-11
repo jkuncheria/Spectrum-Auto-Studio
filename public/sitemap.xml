@@ -1,104 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hmconstruction.com/</loc>
-    <lastmod>2026-01-23</lastmod>
+    <loc>https://www.oldtownautospa.com/</loc>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://hmconstruction.com/services</loc>
-    <lastmod>2026-01-23</lastmod>
+    <loc>https://www.oldtownautospa.com/services</loc>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://hmconstruction.com/residential-construction</loc>
-    <lastmod>2026-01-23</lastmod>
+    <loc>https://www.oldtownautospa.com/auto-detailing</loc>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://hmconstruction.com/commercial-buildouts</loc>
-    <lastmod>2026-01-23</lastmod>
+    <loc>https://www.oldtownautospa.com/ceramic-coatings</loc>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://hmconstruction.com/flooring-tile</loc>
-    <lastmod>2026-01-23</lastmod>
+    <loc>https://www.oldtownautospa.com/window-tinting</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.oldtownautospa.com/vehicle-wraps</loc>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hmconstruction.com/kitchens-bathrooms</loc>
-    <lastmod>2026-01-23</lastmod>
+    <loc>https://www.oldtownautospa.com/paint-correction</loc>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hmconstruction.com/tenant-improvements</loc>
-    <lastmod>2026-01-23</lastmod>
+    <loc>https://www.oldtownautospa.com/factory-finish-system</loc>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hmconstruction.com/remodeling</loc>
-    <lastmod>2026-01-23</lastmod>
+    <loc>https://www.oldtownautospa.com/fleet-washing</loc>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hmconstruction.com/stucco-exterior</loc>
-    <lastmod>2026-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://hmconstruction.com/concrete-masonry</loc>
-    <lastmod>2026-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://hmconstruction.com/demolition-cleanup</loc>
-    <lastmod>2026-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://hmconstruction.com/ada-code-upgrades</loc>
-    <lastmod>2026-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://hmconstruction.com/new-construction</loc>
-    <lastmod>2026-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://hmconstruction.com/gallery</loc>
-    <lastmod>2026-01-23</lastmod>
+    <loc>https://www.oldtownautospa.com/about</loc>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hmconstruction.com/about</loc>
-    <lastmod>2026-01-23</lastmod>
+    <loc>https://www.oldtownautospa.com/faq</loc>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hmconstruction.com/faq</loc>
-    <lastmod>2026-01-23</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://hmconstruction.com/contact</loc>
-    <lastmod>2026-01-23</lastmod>
+    <loc>https://www.oldtownautospa.com/contact</loc>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>

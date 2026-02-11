@@ -41,7 +41,7 @@ const ConcreteMasonry: React.FC = () => {
   return (
     <>
       <SEO
-        title="Phoenix Concrete & Masonry Services | Spectrum Auto Studio"
+        title="Phoenix Concrete & Masonry Services | Old Town Auto Spa"
         description="Professional concrete and masonry services in Phoenix, Arizona. Slabs, driveways, patios, block walls with proper slope, control joints, and clean finishes. Built to spec. Free estimates."
         keywords="Phoenix concrete, Phoenix masonry, concrete contractor Phoenix, driveway Phoenix, patio Phoenix, block walls Phoenix, concrete slab Phoenix"
         canonical="https://hmconstruction.com/concrete-masonry"

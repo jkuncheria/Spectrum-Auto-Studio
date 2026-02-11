@@ -1,6 +1,6 @@
 # Image Generation Scripts
 
-This directory contains scripts for generating images for the Spectrum Auto Studio website using Google Generative AI (Gemini/Nano Banana).
+This directory contains scripts for generating images for the Old Town Auto Spa website using Google Generative AI (Gemini/Nano Banana).
 
 ## Setup
 

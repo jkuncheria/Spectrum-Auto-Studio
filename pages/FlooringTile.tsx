@@ -41,7 +41,7 @@ const FlooringTile: React.FC = () => {
   return (
     <>
       <SEO
-        title="Flooring & Tile Installation Phoenix | Spectrum Auto Studio"
+        title="Flooring & Tile Installation Phoenix | Old Town Auto Spa"
         description="Professional flooring and tile installation in Phoenix, Arizona. Expert installation of tile, LVP, laminate, and hardwood. Level substrates, clean lines, durable grout. Free estimates. Licensed & insured."
         keywords="Phoenix flooring installation, Phoenix tile installation, LVP Phoenix, laminate flooring Phoenix, hardwood installation Phoenix, tile contractor Phoenix, flooring contractor Phoenix"
         canonical="https://hmconstruction.com/flooring-tile"

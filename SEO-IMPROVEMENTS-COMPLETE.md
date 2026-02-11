@@ -46,7 +46,7 @@
 
 #### ✅ 2.1 Enhanced Image Alt Text
 - **Updated all service page hero images** with descriptive, keyword-rich alt text
-- **Format:** "Service Name - Phoenix Construction Project by Spectrum Auto Studio"
+- **Format:** "Service Name - Phoenix Construction Project by Old Town Auto Spa"
 - **Examples:**
   - "Professional Flooring and Tile Installation Services in Phoenix, Arizona"
   - "Residential Construction Services in Phoenix, Arizona"

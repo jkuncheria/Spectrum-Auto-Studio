@@ -14,7 +14,7 @@ const testimonials: Testimonial[] = [
   {
     id: 1,
     name: 'Sarah Johnson',
-    location: 'Denver, CO',
+    location: 'Phoenix, CO',
     rating: 5,
     text: 'Got full front PPF on my new Tesla and the results are incredible. The film is completely invisible and I have total peace of mind driving on the highway now. Highly recommend!',
     product: 'Paint Protection Film'
@@ -22,7 +22,7 @@ const testimonials: Testimonial[] = [
   {
     id: 2,
     name: 'Michael Chen',
-    location: 'Denver, CO',
+    location: 'Phoenix, CO',
     rating: 5,
     text: 'Outstanding ceramic coating work on my BMW M4. The depth and gloss are unreal, and water just beads right off. Best investment I\'ve made for my car!',
     product: 'Ceramic Coating'
@@ -30,7 +30,7 @@ const testimonials: Testimonial[] = [
   {
     id: 3,
     name: 'Emily Rodriguez',
-    location: 'Denver, CO',
+    location: 'Phoenix, CO',
     rating: 5,
     text: 'Had my windows tinted and it made a huge difference in the Colorado sun. Professional installation with no bubbles. My car stays so much cooler now!',
     product: 'Window Tinting'
@@ -38,7 +38,7 @@ const testimonials: Testimonial[] = [
   {
     id: 4,
     name: 'David Thompson',
-    location: 'Denver, CO',
+    location: 'Phoenix, CO',
     rating: 5,
     text: 'The full detail they did on my truck was amazing. Interior and exterior look brand new. Attention to detail was incredible - they got into every crevice!',
     product: 'Auto Detailing'
@@ -46,7 +46,7 @@ const testimonials: Testimonial[] = [
   {
     id: 5,
     name: 'Jennifer Williams',
-    location: 'Denver, CO',
+    location: 'Phoenix, CO',
     rating: 5,
     text: 'Got a satin black wrap on my Mustang and it looks absolutely stunning. The installation was flawless with perfect edges. Turned heads everywhere I go!',
     product: 'Vehicle Wraps'
@@ -54,7 +54,7 @@ const testimonials: Testimonial[] = [
   {
     id: 6,
     name: 'Robert Martinez',
-    location: 'Denver, CO',
+    location: 'Phoenix, CO',
     rating: 5,
     text: 'From consultation to completion, everything exceeded my expectations. They corrected years of swirl marks and applied ceramic coating. My car has never looked better!',
     product: 'Paint Correction'
@@ -209,14 +209,14 @@ const Testimonials: React.FC = () => {
           </h2>
           <div className="w-20 h-1 bg-[#F21C1D] mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            Don't just take our word for it. See what real customers have to say about their auto detailing and protection experience in Denver.
+            Don't just take our word for it. See what real customers have to say about their auto detailing and protection experience in Phoenix.
           </p>
         </div>
 
         {/* Elfsight Widget Container */}
         <div 
           ref={widgetRef}
-          className="elfsight-app-83f4b1a4-a178-415c-a0c8-81d85128acbb" 
+          className="elfsight-app-a74bfb75-453d-4ba9-b2af-3fd684a2f73c" 
           data-elfsight-app-lazy
           style={{ minHeight: showFallback ? '0' : '400px' }}
         ></div>

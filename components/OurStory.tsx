@@ -35,13 +35,13 @@ const OurStory: React.FC = () => {
         
         {/* Header */}
         <div className="text-center mb-20 relative z-10">
-          <span className="font-bold tracking-wider text-sm uppercase" style={{ color: '#F21C1D' }}>ABOUT Spectrum Auto Studio</span>
+          <span className="font-bold tracking-wider text-sm uppercase" style={{ color: '#F21C1D' }}>ABOUT Old Town Auto Spa</span>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mt-4 mb-6">
             Our Story
           </h2>
           <div className="w-20 h-1 bg-[#F21C1D] mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            From a classroom lesson to Denver's most trusted detailing service – here's how Spectrum Auto Studio came to be.
+            From a classroom lesson to Phoenix's most trusted detailing service – here's how Old Town Auto Spa came to be.
           </p>
         </div>
 
@@ -173,7 +173,7 @@ const OurStory: React.FC = () => {
                     We could wash, paint correct, steam, extract, restore headlights, clay, wax, shampoo, and just about anything – <span className="italic">completely and totally inside</span>.
                   </p>
                   <div className="flex flex-wrap gap-2 mt-4">
-                    {['Denver', 'Castle Rock', 'Bennett', 'Highlands Ranch', 'Lakewood', 'Parker'].map((city) => (
+                    {['Phoenix', 'Castle Rock', 'Bennett', 'Highlands Ranch', 'Lakewood', 'Parker'].map((city) => (
                       <span key={city} className="px-3 py-1 rounded-full text-sm font-medium text-white" style={{ backgroundColor: '#F21C1D' }}>
                         {city}
                       </span>

@@ -41,7 +41,7 @@ const CommercialBuildouts: React.FC = () => {
   return (
     <>
       <SEO
-        title="Phoenix Commercial Build-Outs & Tenant Improvements | Spectrum Auto Studio"
+        title="Phoenix Commercial Build-Outs & Tenant Improvements | Old Town Auto Spa"
         description="Professional commercial build-outs and tenant improvements in Phoenix, Arizona. Fast, code-compliant build-outs with minimal downtime. Drywall, lighting, flooring, ADA upgrades. Free estimates."
         keywords="Phoenix commercial build-outs, Phoenix tenant improvements, commercial contractor Phoenix, office build-out Phoenix, retail build-out Phoenix, tenant improvement contractor Phoenix"
         canonical="https://hmconstruction.com/commercial-buildouts"

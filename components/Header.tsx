@@ -40,15 +40,15 @@ const Header: React.FC = () => {
   return (
     <header className="w-full flex flex-col font-sans z-50 relative">
       {/* Top Bar */}
-      <div className="bg-gray-100 text-xs py-2 px-4 flex justify-center items-center border-b border-gray-200">
-        <div className="text-center font-semibold text-black">
-          <span className="mr-2">50% Off a Clay Treatment with Purchase of a Full Detail!</span>
-          <Link to="/contact" onClick={scrollToTop} className="underline hover:text-blue-700">Get Quote</Link>
+      <div className="text-xs py-2 px-4 flex justify-center items-center border-b border-stone-800" style={{ backgroundColor: '#1a1a1a' }}>
+        <div className="text-center font-semibold text-gray-300">
+          <span className="mr-2">Free Consultation & Quote – Transform Your Vehicle Today!</span>
+          <Link to="/contact" onClick={scrollToTop} className="underline hover:text-[#F0E130] text-[#F0E130]">Get Quote</Link>
         </div>
       </div>
 
       {/* Main Header Content */}
-      <div className="bg-white py-3 px-4 md:px-8 lg:px-16 shadow-sm">
+      <div className="bg-black py-3 px-4 md:px-8 lg:px-16 shadow-lg border-b border-stone-800">
         <div className="flex items-center justify-between md:grid md:grid-cols-3 md:items-center">
           
           {/* Mobile Contact Buttons (Left side on mobile) */}
@@ -56,13 +56,13 @@ const Header: React.FC = () => {
             <Link 
               to="/contact"
               onClick={scrollToTop}
-              className="p-2 border-2 rounded-lg" style={{ borderColor: '#F21C1D', color: '#F21C1D' }}
+              className="p-2 border-2 rounded-lg" style={{ borderColor: '#F0E130', color: '#F0E130' }}
             >
               <Mail className="w-5 h-5" />
             </Link>
             <a 
-              href="tel:6307959999"
-              className="p-2 text-white rounded-lg" style={{ backgroundColor: '#F21C1D' }}
+              href="tel:6028078989"
+              className="p-2 text-white rounded-lg" style={{ backgroundColor: '#F0E130' }}
             >
               <Phone className="w-5 h-5" />
             </a>
@@ -72,8 +72,8 @@ const Header: React.FC = () => {
           <div className="flex-1 flex justify-center md:col-start-2 md:col-end-3 md:flex md:justify-center">
             <Link to="/" onClick={scrollToTop} className="flex items-center justify-center group">
               <img 
-                src="/spectrumlogo.jpeg" 
-                alt="Spectrum Auto Studio - Ceramic Coatings, PPF, Window Tint" 
+                src="/oldtownlogo.webp" 
+                alt="Old Town Auto Spa - Ceramic Coatings, PPF, Window Tint" 
                 className="h-14 md:h-24 lg:h-28 w-auto object-contain"
               />
             </Link>
@@ -82,7 +82,7 @@ const Header: React.FC = () => {
           {/* Mobile Menu Toggle (Right side on mobile) */}
           <div className="md:hidden">
             <button 
-              className="p-2 text-gray-600"
+              className="p-2 text-gray-300"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               {isMenuOpen ? <X /> : <Menu />}
@@ -94,14 +94,14 @@ const Header: React.FC = () => {
             <Link 
               to="/contact"
               onClick={scrollToTop}
-              className="flex items-center border-2 hover:text-white font-semibold text-sm px-4 py-2 rounded-lg transition-all" style={{ borderColor: '#F21C1D', color: '#F21C1D' }} onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#F21C1D'; e.currentTarget.style.color = 'white'; }} onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = '#F21C1D'; }}
+              className="flex items-center border-2 hover:text-white font-semibold text-sm px-4 py-2 rounded-lg transition-all" style={{ borderColor: '#F0E130', color: '#F0E130' }} onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#F0E130'; e.currentTarget.style.color = 'white'; }} onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = '#F0E130'; }}
             >
               <Mail className="w-4 h-4 mr-2" />
               Contact
             </Link>
             <a 
-              href="tel:6307959999"
-              className="flex items-center text-white font-semibold text-sm px-4 py-2 rounded-lg transition-all transform hover:scale-105 shadow-md" style={{ backgroundColor: '#F21C1D' }}
+              href="tel:6028078989"
+              className="flex items-center text-black font-semibold text-sm px-4 py-2 rounded-lg transition-all transform hover:scale-105 shadow-md" style={{ backgroundColor: '#F0E130' }}
             >
               <Phone className="w-4 h-4 mr-2" />
               Call Us
@@ -148,7 +148,7 @@ const Header: React.FC = () => {
                   >
                     <button
                       onClick={() => toggleDropdown(item.label)}
-                      className="w-full md:w-auto flex items-center justify-between py-3 md:py-4 hover:text-[#F21C1D] transition-colors"
+                      className="w-full md:w-auto flex items-center justify-between py-3 md:py-4 hover:text-[#F0E130] transition-colors"
                     >
                       <span>{item.label.toUpperCase()}</span>
                       <ChevronDown className={`w-4 h-4 ml-1 transition-transform ${openDropdown === item.label ? 'rotate-180' : ''}`} />
@@ -159,7 +159,7 @@ const Header: React.FC = () => {
                           <li key={subItem.label} className="border-b last:border-none" style={{ borderColor: '#333' }}>
                             <Link
                               to={subItem.href}
-                              className="block py-3 px-4 md:px-6 hover:text-[#F21C1D] transition-colors" style={{ backgroundColor: 'transparent' }} onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#333'} onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'transparent'}
+                              className="block py-3 px-4 md:px-6 hover:text-[#F0E130] transition-colors" style={{ backgroundColor: 'transparent' }} onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#333'} onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'transparent'}
                               onClick={() => {
                                 setIsMenuOpen(false);
                                 setOpenDropdown(null);
@@ -176,7 +176,7 @@ const Header: React.FC = () => {
                 ) : item.href.startsWith('#') ? (
                   <a 
                     href={item.href} 
-                    className="block py-3 md:py-4 hover:text-[#F21C1D] transition-colors"
+                    className="block py-3 md:py-4 hover:text-[#F0E130] transition-colors"
                   >
                     {item.label.toUpperCase()}
                   </a>
@@ -185,7 +185,7 @@ const Header: React.FC = () => {
                     href={item.href} 
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block py-3 md:py-4 hover:text-[#F21C1D] transition-colors"
+                    className="block py-3 md:py-4 hover:text-[#F0E130] transition-colors"
                     onClick={() => {
                       setIsMenuOpen(false);
                     }}
@@ -195,7 +195,7 @@ const Header: React.FC = () => {
                 ) : (
                   <Link 
                     to={item.href} 
-                    className="block py-3 md:py-4 hover:text-[#F21C1D] transition-colors"
+                    className="block py-3 md:py-4 hover:text-[#F0E130] transition-colors"
                     onClick={() => {
                       setIsMenuOpen(false);
                       scrollToTop();

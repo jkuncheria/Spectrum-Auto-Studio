@@ -41,7 +41,7 @@ const StuccoExterior: React.FC = () => {
   return (
     <>
       <SEO
-        title="Phoenix Stucco & Exterior Services | Spectrum Auto Studio"
+        title="Phoenix Stucco & Exterior Services | Old Town Auto Spa"
         description="Professional stucco and exterior services in Phoenix, Arizona. Durable stucco application, crack repair, elastomeric paint. Exterior built to last. Licensed & insured. Free estimates."
         keywords="Phoenix stucco, Phoenix exterior stucco, stucco contractor Phoenix, exterior painting Phoenix, stucco repair Phoenix, elastomeric paint Phoenix"
         canonical="https://hmconstruction.com/stucco-exterior"

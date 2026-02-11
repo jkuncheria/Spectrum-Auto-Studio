@@ -41,7 +41,7 @@ const ResidentialConstruction: React.FC = () => {
   return (
     <>
       <SEO
-        title="Phoenix Residential Construction | Spectrum Auto Studio"
+        title="Phoenix Residential Construction | Old Town Auto Spa"
         description="Professional residential construction services in Phoenix, Arizona. Quality homes built on time and on budget. Remodels, new construction, additions, kitchens, bathrooms. Licensed & insured. Free estimates."
         keywords="Phoenix residential construction, Phoenix home builders, Phoenix remodeling, Phoenix new construction, residential contractor Phoenix, home renovation Phoenix"
         canonical="https://hmconstruction.com/residential-construction"

@@ -48,7 +48,7 @@ const IMAGE_REPLACEMENTS = {
   // About section
   "aboutuswatkins.png": {
     prompt: "Professional construction team working together on a construction site. Diverse team of construction workers, hard hats, construction tools, modern construction site in Arizona, teamwork, quality craftsmanship, professional photography style, high quality, 4K, realistic, detailed.",
-    alt: "Spectrum Auto Studio Team"
+    alt: "Old Town Auto Spa Team"
   },
   
   // Gallery images

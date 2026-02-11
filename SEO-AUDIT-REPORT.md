@@ -1,4 +1,4 @@
-# SEO Audit Report - Spectrum Auto Studio
+# SEO Audit Report - Old Town Auto Spa
 **Date:** January 2025  
 **Current SEO Score: 72/100**
 
@@ -85,8 +85,8 @@ The website has a solid SEO foundation with good meta tags, structured data, and
 **Implementation:**
 - Install `react-helmet-async` or use React Router's meta API
 - Create unique titles for each service page:
-  - "Flooring & Tile Installation Phoenix | Spectrum Auto Studio"
-  - "Residential Construction Phoenix | Spectrum Auto Studio"
+  - "Flooring & Tile Installation Phoenix | Old Town Auto Spa"
+  - "Residential Construction Phoenix | Old Town Auto Spa"
   - etc.
 - Add unique meta descriptions (150-160 characters) for each page
 

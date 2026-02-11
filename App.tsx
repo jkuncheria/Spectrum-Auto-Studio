@@ -9,8 +9,6 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import FAQ from './pages/FAQ';
 import Services from './pages/Services';
-import Gallery from './pages/Gallery';
-import PaintProtectionFilm from './pages/PaintProtectionFilm';
 import CeramicCoatings from './pages/CeramicCoatings';
 import WindowTinting from './pages/WindowTinting';
 import VehicleWraps from './pages/VehicleWraps';
@@ -19,6 +17,7 @@ import InteriorProtection from './pages/InteriorProtection';
 import WheelCaliper from './pages/WheelCaliper';
 import PaintCorrection from './pages/PaintCorrection';
 import FactoryFinishSystem from './pages/FactoryFinishSystem';
+import FleetWashing from './pages/FleetWashing';
 
 const App: React.FC = () => {
   return (
@@ -32,12 +31,10 @@ const App: React.FC = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />
-            <Route path="/gallery" element={<Gallery />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/faq" element={<FAQ />} />
-            <Route path="/paint-protection-film" element={<PaintProtectionFilm />} />
-            <Route path="/ceramic-coatings" element={<CeramicCoatings />} />
+                        <Route path="/ceramic-coatings" element={<CeramicCoatings />} />
             <Route path="/window-tinting" element={<WindowTinting />} />
             <Route path="/vehicle-wraps" element={<VehicleWraps />} />
             <Route path="/auto-detailing" element={<AutoDetailing />} />
@@ -45,13 +42,12 @@ const App: React.FC = () => {
             <Route path="/wheel-caliper" element={<WheelCaliper />} />
             <Route path="/paint-correction" element={<PaintCorrection />} />
             <Route path="/factory-finish-system" element={<FactoryFinishSystem />} />
+            <Route path="/fleet-washing" element={<FleetWashing />} />
           </Routes>
       </main>
 
       <Footer />
       
-      {/* Elfsight All-in-One Chat | Generic (My Info) */}
-      <div className="elfsight-app-068b41e7-7962-44bb-b44e-db85e45c6904" data-elfsight-app-lazy></div>
     </div>
     </Router>
   );
