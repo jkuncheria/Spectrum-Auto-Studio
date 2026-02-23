@@ -62,7 +62,7 @@ const Header: React.FC = () => {
             </Link>
             <a 
               href="tel:6028078989"
-              className="p-2 text-white rounded-lg" style={{ backgroundColor: '#F0E130' }}
+              className="p-2 text-black rounded-lg" style={{ backgroundColor: '#F0E130' }}
             >
               <Phone className="w-5 h-5" />
             </a>

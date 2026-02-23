@@ -18,6 +18,17 @@ import WheelCaliper from './pages/WheelCaliper';
 import PaintCorrection from './pages/PaintCorrection';
 import FactoryFinishSystem from './pages/FactoryFinishSystem';
 import FleetWashing from './pages/FleetWashing';
+import Gallery from './pages/Gallery';
+import ScottsdaleAutoDetailing from './pages/ScottsdaleAutoDetailing';
+import TempeAutoDetailing from './pages/TempeAutoDetailing';
+import AnthemAutoDetailing from './pages/AnthemAutoDetailing';
+import ParadiseValleyAutoDetailing from './pages/ParadiseValleyAutoDetailing';
+import ChandlerAutoDetailing from './pages/ChandlerAutoDetailing';
+import FountainHillsAutoDetailing from './pages/FountainHillsAutoDetailing';
+import ScottsdaleLiving from './pages/ScottsdaleLiving';
+import TempeLiving from './pages/TempeLiving';
+import MembersPricing from './pages/MembersPricing';
+import Pricing from './pages/Pricing';
 
 const App: React.FC = () => {
   return (
@@ -43,6 +54,17 @@ const App: React.FC = () => {
             <Route path="/paint-correction" element={<PaintCorrection />} />
             <Route path="/factory-finish-system" element={<FactoryFinishSystem />} />
             <Route path="/fleet-washing" element={<FleetWashing />} />
+            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/scottsdale-auto-detailing" element={<ScottsdaleAutoDetailing />} />
+            <Route path="/tempe-auto-detailing" element={<TempeAutoDetailing />} />
+            <Route path="/anthem-auto-detailing" element={<AnthemAutoDetailing />} />
+            <Route path="/paradise-valley-auto-detailing" element={<ParadiseValleyAutoDetailing />} />
+            <Route path="/chandler-auto-detailing" element={<ChandlerAutoDetailing />} />
+            <Route path="/fountain-hills-auto-detailing" element={<FountainHillsAutoDetailing />} />
+            <Route path="/scottsdale-living" element={<ScottsdaleLiving />} />
+            <Route path="/tempe-living" element={<TempeLiving />} />
+            <Route path="/members-pricing" element={<MembersPricing />} />
+            <Route path="/pricing" element={<Pricing />} />
           </Routes>
       </main>
 

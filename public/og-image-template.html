@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OG Image Template - 1200x630</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: #333;
+      font-family: Arial, sans-serif;
+    }
+    .og-container {
+      width: 1200px;
+      height: 630px;
+      background: #000000;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .logo {
+      max-width: 800px;
+      max-height: 400px;
+      object-fit: contain;
+    }
+    .tagline {
+      color: #F0E130;
+      font-size: 28px;
+      font-weight: 600;
+      margin-top: 20px;
+      letter-spacing: 2px;
+    }
+    .instructions {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      background: #222;
+      color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      font-size: 14px;
+      max-width: 300px;
+    }
+    .instructions h3 {
+      color: #F0E130;
+      margin-bottom: 10px;
+    }
+    .instructions ol {
+      margin-left: 20px;
+    }
+    .instructions li {
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="instructions">
+    <h3>How to Save as OG Image:</h3>
+    <ol>
+      <li>Right-click on the black box</li>
+      <li>Select "Inspect" or press F12</li>
+      <li>Right-click the .og-container element</li>
+      <li>Select "Capture node screenshot"</li>
+      <li>Save as <strong>og-image.png</strong></li>
+      <li>Move to /public folder</li>
+    </ol>
+    <p style="margin-top: 15px; color: #888;">Or use a screenshot tool to capture exactly the black area (1200x630px)</p>
+  </div>
+
+  <div class="og-container">
+    <img src="oldtownlogo.webp" alt="Old Town Auto Spa" class="logo">
+    <p class="tagline">PHOENIX'S PREMIER AUTO SPA</p>
+  </div>
+</body>
+</html>

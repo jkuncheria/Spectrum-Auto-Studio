@@ -22,7 +22,7 @@ const SEO: React.FC<SEOProps> = ({
   description, 
   keywords, 
   canonical,
-  ogImage = '/oldtownlogo1.png',
+  ogImage = '/og-image.png',
   serviceSchema
 }) => {
   useEffect(() => {

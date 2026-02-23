@@ -5,7 +5,6 @@ import { Shield, Sparkles, Clock, Award, Car, Palette, Sun, Film } from 'lucide-
 export const NAV_ITEMS: NavItem[] = [
   { label: 'Auto Detailing', href: '/auto-detailing' },
   { label: 'Ceramic Coating', href: '/ceramic-coatings' },
-  { label: 'Fleet Washing', href: '/fleet-washing' },
   { 
     label: 'ALL SERVICES', 
     href: '#',
@@ -21,10 +20,24 @@ export const NAV_ITEMS: NavItem[] = [
     ]
   },
   { 
+    label: 'Service Areas', 
+    href: '#',
+    subItems: [
+      { label: 'Scottsdale', href: '/scottsdale-auto-detailing' },
+      { label: 'Tempe', href: '/tempe-auto-detailing' },
+      { label: 'Anthem', href: '/anthem-auto-detailing' },
+      { label: 'Paradise Valley', href: '/paradise-valley-auto-detailing' },
+      { label: 'Chandler', href: '/chandler-auto-detailing' },
+      { label: 'Fountain Hills', href: '/fountain-hills-auto-detailing' },
+    ]
+  },
+  { label: 'Gallery', href: '/gallery' },
+  { 
     label: 'About', 
     href: '#',
     subItems: [
       { label: 'About Us', href: '/about' },
+      { label: 'Pricing', href: '/pricing' },
       { label: 'FAQ', href: '/faq' },
       { label: 'Contact', href: '/contact' },
     ]

@@ -415,43 +415,43 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
         {!simplified && (
           <>
             <div className="mt-20 grid grid-cols-1 lg:grid-cols-2 gap-10">
-          <div className="bg-white rounded-2xl shadow-lg p-8 md:p-10 border border-gray-100">
+          <div className="bg-stone-900 rounded-2xl shadow-lg p-8 md:p-10 border border-stone-800">
             <div className="flex items-center mb-6">
-              <div className="bg-gray-100 p-3 rounded-xl mr-4">
+              <div className="bg-stone-800 p-3 rounded-xl mr-4">
                 <Clock className="w-6 h-6 text-[#F0E130]" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900">Shop Hours</h3>
+              <h3 className="text-2xl font-bold text-white">Shop Hours</h3>
             </div>
             <div className="space-y-4">
-              <div className="bg-gray-100 rounded-lg p-3 mb-4">
+              <div className="bg-stone-800 rounded-lg p-3 mb-4">
                 <p className="font-semibold text-[#F0E130]">Available</p>
-                <p className="text-gray-700">By Appointment</p>
+                <p className="text-gray-300">By Appointment</p>
               </div>
-              <div className="flex justify-between items-center py-3 border-b border-gray-100">
-                <span className="font-semibold text-gray-900">Monday - Sunday</span>
-                <span className="text-gray-600">By Appointment</span>
+              <div className="flex justify-between items-center py-3 border-b border-stone-700">
+                <span className="font-semibold text-white">Monday - Sunday</span>
+                <span className="text-gray-400">By Appointment</span>
               </div>
-              <div className="pt-3 border-t border-gray-100">
+              <div className="pt-3 border-t border-stone-700">
                 <p className="text-xs text-gray-500 italic">We work around your schedule. Call for availability.</p>
               </div>
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl shadow-lg p-8 md:p-10 border border-gray-100">
+          <div className="bg-stone-900 rounded-2xl shadow-lg p-8 md:p-10 border border-stone-800">
             <div className="flex items-center mb-6">
-              <div className="bg-gray-100 p-3 rounded-xl mr-4">
+              <div className="bg-stone-800 p-3 rounded-xl mr-4">
                 <MapPin className="w-6 h-6 text-[#F0E130]" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900">Service Area</h3>
+              <h3 className="text-2xl font-bold text-white">Service Area</h3>
             </div>
             <div className="space-y-4">
               <div>
-                <p className="text-gray-600 mb-2">We Serve</p>
-                <p className="text-gray-900 font-semibold">Phoenix • Anthem • Paradise Valley</p>
-                <p className="text-gray-900 font-semibold">Scottsdale • Chandler • Fountain Hills</p>
+                <p className="text-gray-400 mb-2">We Serve</p>
+                <p className="text-white font-semibold">Phoenix • Anthem • Paradise Valley</p>
+                <p className="text-white font-semibold">Scottsdale • Chandler • Fountain Hills</p>
               </div>
-              <div className="pt-4 border-t border-gray-100">
-                <p className="text-gray-600 mb-4">
+              <div className="pt-4 border-t border-stone-700">
+                <p className="text-gray-400 mb-4">
                   We provide professional auto detailing and protection services for all vehicle types. Contact us to discuss your needs.
                 </p>
                 <a 
@@ -465,53 +465,7 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
           </div>
         </div>
 
-            {/* Social Media & Additional Info */}
-            <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl p-8 text-white text-center">
-                <div className="bg-white bg-opacity-20 p-4 rounded-full inline-flex mb-4">
-                  <Calendar className="w-8 h-8" />
-                </div>
-                <h3 className="text-xl font-bold mb-3">Schedule a Consultation</h3>
-                <p className="text-gray-300 mb-4 text-sm">
-                  Book a free consultation to discuss your vehicle protection needs and get expert recommendations.
-                </p>
-                <button className="bg-white text-gray-900 hover:bg-gray-100 font-bold py-2 px-6 rounded-lg transition-all">
-                  Book Now
-                </button>
-              </div>
-
-              <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl p-8 text-white text-center">
-                <div className="bg-white bg-opacity-20 p-4 rounded-full inline-flex mb-4">
-                  <Users className="w-8 h-8" />
-                </div>
-                <h3 className="text-xl font-bold mb-3">Join Our Community</h3>
-                <p className="text-gray-300 mb-4 text-sm">
-                  Follow us on social media for auto care tips, special offers, and project showcases.
-                </p>
-                <div className="flex justify-center gap-3">
-                  <a href="https://www.facebook.com/HMConstructionaz/" target="_blank" rel="noopener noreferrer" className="bg-white bg-opacity-20 hover:bg-opacity-30 p-2 rounded-lg transition-all">
-                    <Facebook className="w-5 h-5" />
-                  </a>
-                  <a href="https://www.instagram.com/hmconstructionaz/" target="_blank" rel="noopener noreferrer" className="bg-white bg-opacity-20 hover:bg-opacity-30 p-2 rounded-lg transition-all">
-                    <Instagram className="w-5 h-5" />
-                  </a>
-                </div>
-              </div>
-
-              <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl p-8 text-white text-center">
-                <div className="bg-white bg-opacity-20 p-4 rounded-full inline-flex mb-4">
-                  <Phone className="w-8 h-8" />
-                </div>
-                <h3 className="text-xl font-bold mb-3">Need Immediate Help?</h3>
-                <p className="text-gray-300 mb-4 text-sm">
-                  Call us directly for urgent questions or to speak with an auto protection specialist right away.
-                </p>
-                <a href="tel:6028078989" className="bg-white text-gray-900 hover:bg-gray-100 font-bold py-2 px-6 rounded-lg transition-all inline-block">
-                  (602) 807-8989
-                </a>
-              </div>
-            </div>
-          </>
+                      </>
         )}
 
       </div>

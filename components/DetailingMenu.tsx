@@ -1,43 +1,44 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Sparkles, Shield, Star, Check } from 'lucide-react';
 
 const DetailingMenu: React.FC = () => {
   const packages = [
     {
       icon: <Sparkles className="w-6 h-6 text-[#F0E130]" />,
-      title: 'Quick Service',
-      price: '$49',
-      priceNote: '',
+      title: 'Basic Exterior',
+      price: '$69 – $109',
+      priceNote: 'Coupe | Sedan/SUV | Full Size',
       description: 'Perfect for a quick, high-quality exterior clean',
       features: [
-        'Ceramic infused foam & wash',
-        'Spotless water rinse & towel dry',
-        'Wheels & tire dressing'
+        'Soft hand mitt foam wash',
+        'Wheel well & front wheel wash',
+        'Bug removal & towel dry'
       ],
       popular: false
     },
     {
       icon: <Shield className="w-6 h-6 text-[#F0E130]" />,
-      title: 'Deep Clean',
-      price: '$199 – $299',
-      priceNote: 'Cars | Truck/SUV | 3rd Row',
-      description: 'Total refresh for selling, buying, or returning from a road trip',
+      title: 'Basic Full Car',
+      price: '$129 – $209',
+      priceNote: 'Coupe | Sedan/SUV | Full Size',
+      description: 'Interior & exterior refresh for your vehicle',
       features: [
-        'Complete interior deep clean',
+        'Complete interior wipe down & vacuum',
         'Full exterior wash & dry',
-        'Stain & odor removal'
+        'Windows & windshield cleaned'
       ],
       popular: true
     },
     {
       icon: <Star className="w-6 h-6 text-[#F0E130]" />,
-      title: 'Complete Detail',
-      price: '$369 – $519',
-      priceNote: 'Cars | Truck/SUV | 3rd Row',
+      title: 'Complete Full Car',
+      price: '$249 – $359',
+      priceNote: 'Coupe | Sedan/SUV | Full Size',
       description: 'Keep your vehicle looking its very best',
       features: [
-        'Paint protection & gloss enhancement',
-        'Interior rejuvenation & preservation',
+        'Steam cleaning & shampoo extraction',
+        'Ceramic foam sealant protection',
         'Premium finish inside & out'
       ],
       popular: false
@@ -62,7 +63,7 @@ const DetailingMenu: React.FC = () => {
           {packages.map((pkg, idx) => (
             <div 
               key={idx} 
-              className={`relative bg-transparent border rounded-xl p-8 ${
+              className={`relative bg-transparent border rounded-xl p-8 flex flex-col ${
                 pkg.popular ? 'border-[#F0E130]' : 'border-gray-800'
               }`}
             >
@@ -76,7 +77,7 @@ const DetailingMenu: React.FC = () => {
               )}
 
               {/* Icon */}
-              <div className="border border-[#F0E130] p-3 rounded-lg inline-block mb-6">
+              <div className="border border-[#F0E130] p-3 rounded-lg w-fit mb-6">
                 {pkg.icon}
               </div>
 
@@ -89,7 +90,7 @@ const DetailingMenu: React.FC = () => {
               {!pkg.priceNote && <div className="mb-4"></div>}
 
               {/* Description */}
-              <p className="text-gray-400 mb-6">{pkg.description}</p>
+              <p className="text-gray-400 mb-6 min-h-[48px]">{pkg.description}</p>
 
               {/* Features */}
               <ul className="space-y-3 mb-8">
@@ -104,7 +105,7 @@ const DetailingMenu: React.FC = () => {
               {/* CTA Button */}
               <a 
                 href="tel:6028078989"
-                className="block w-full text-center bg-[#F0E130] hover:bg-yellow-400 text-black font-bold py-3 px-6 rounded-lg transition-all transform hover:scale-105"
+                className="block w-full text-center bg-[#F0E130] hover:bg-yellow-400 text-black font-bold py-3 px-6 rounded-lg transition-all transform hover:scale-105 mt-auto"
               >
                 Call to Book
               </a>
@@ -112,11 +113,21 @@ const DetailingMenu: React.FC = () => {
           ))}
         </div>
 
+        {/* View Full Pricing Button */}
+        <div className="text-center mb-8">
+          <Link
+            to="/pricing"
+            className="inline-block border-2 border-[#F0E130] text-[#F0E130] hover:bg-[#F0E130] hover:text-black font-bold py-3 px-8 rounded-lg transition-all"
+          >
+            View Full Pricing Menu
+          </Link>
+        </div>
+
         {/* Basic Service Note */}
         <div className="bg-stone-900/50 border border-stone-800 rounded-xl p-6 text-center">
           <p className="text-gray-300">
-            <span className="text-[#F0E130] font-semibold">Basic Service from $89</span>
-            <span className="text-gray-400"> — Best for vehicles that only need a car wash with quick vacuuming and complete wipe down</span>
+            <span className="text-[#F0E130] font-semibold">Basic Interior from $69</span>
+            <span className="text-gray-400"> — Best for vehicles that only need a quick vacuuming and complete wipe down</span>
           </p>
         </div>
       </div>

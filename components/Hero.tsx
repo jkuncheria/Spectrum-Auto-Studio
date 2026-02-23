@@ -50,7 +50,7 @@ const Hero: React.FC = () => {
             href="tel:6028078989"
             className="bg-stone-800/80 hover:bg-stone-700 text-white font-bold py-3 px-8 rounded shadow-lg transition transform hover:scale-105 text-center border border-[#F0E130]/30"
           >
-            CALL TODAY
+            CALL US
           </a>
         </div>
       </div>
